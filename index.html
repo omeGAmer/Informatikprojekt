@@ -2,7 +2,13 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-
+  <script>
+    let password = prompt("Geben Sie das Passwort für den Zugriff auf die Website ein:");
+    if(password !== "7250") {
+      alert("Falsches Passwort!");
+      window.location = "https://google.com"; // или любая страница
+    }
+  </script>
   <style>
 	/* ========= Schriften ========= */
 	
@@ -338,4 +344,5 @@
 
 </body>
 </html>
+
 
