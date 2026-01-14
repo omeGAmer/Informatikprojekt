@@ -4,7 +4,15 @@
   <meta charset="UTF-8">
   <meta name="description" content="Informatikprojekt">
   <meta name="author" content="Valerii Korotenko">
-  
+
+  <script>
+    let password = prompt("Geben Sie das Passwort für den Zugriff auf die Website ein:");
+    if(password !== "7250") {
+      alert("Falsches Passwort!");
+      window.location = "https://google.com";
+    }
+  </script>
+	
   <style>
 	/* ========= Schriften ========= */
 	
@@ -342,6 +350,7 @@
 
 </body>
 </html>
+
 
 
 
